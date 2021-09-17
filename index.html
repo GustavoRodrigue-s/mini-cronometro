@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="painel">
+        <p><span class="span-minutes" id="span-minutes">00</span>:<span class="span-seconds" id="span-seconds">00</span>.<span class="span-milliseconds" id="span-milliseconds">00</span></p>
+    </main>
+    <div class="box-buttons">
+        <div id="caixa_botão_play">
+            <img src="imagens/outline_play_arrow_black_48dp.png" alt="play" class="img-play" id="img-caixa-botao">
+            <div id="sensor_play"></div>
+        </div>
+        <div id="caixa_botão_restart">
+            <img src="imagens/restart.png" alt="play"class="img-restart" id="img-caixa-botao_restart">
+            <div id="sensor_restart"></div>
+        </div>
+    </div>
+    <script src="interação.js"></script>
+</body>
+</html>
